@@ -1,4 +1,5 @@
 import Link from '../src/components/Link';
+import PageTitle from '../src/components/PageTitle';
 
 // SSG - Static Site Generation 
 // SSR - Server Side Rendering
@@ -37,6 +38,7 @@ export default function FAQPage({ faq }) {
 
     return (
         <div>
+            <PageTitle titulo="FAQ - Alura Cases Campanha"/>
             <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
             <Link href="/">
                 Ir para a home
